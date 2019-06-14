@@ -2,6 +2,10 @@
 
 ![depgraph](./dependencygraph.svg)
 
+## Sources
+- Faker
+- https://github.com/greggles/mcc-codes
+
 ## Output example:
 
 ```
