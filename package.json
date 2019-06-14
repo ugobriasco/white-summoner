@@ -1,0 +1,37 @@
+{
+  "name": "summoner",
+  "version": "1.0.0",
+  "description": "persona generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha --opts ./mocha.opts",
+    "build:deptree": "depcruise --exclude '^node_modules' --output-type dot lib | dot -T svg > dependencygraph.svg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugobriasco/summoner.git"
+  },
+  "keywords": [
+    "persona"
+  ],
+  "author": "Ugo Briasco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ugobriasco/summoner/issues"
+  },
+  "homepage": "https://github.com/ugobriasco/summoner#readme",
+  "devDependencies": {
+    "dependency-cruiser": "^4.22.0",
+    "mocha": "^6.1.4",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "faker": "^4.1.0",
+    "prop-types": "^15.7.2",
+    "random-birthday": "^1.0.1"
+  }
+}
