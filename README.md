@@ -3,10 +3,16 @@
 ![depgraph](./dependencygraph.svg)
 
 ## Sources
+
 - Faker
 - https://github.com/greggles/mcc-codes
 
 ## Output example:
+
+## Localization
+
+Persona from the following countries have complete data:
+BR, CH, DE, IT, PL, NL, GB
 
 ```
 {
@@ -55,5 +61,4 @@
       company: 'Umbrella Corp. DE'
     }
   }
-
 ```

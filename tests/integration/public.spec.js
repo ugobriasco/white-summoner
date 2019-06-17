@@ -34,7 +34,7 @@ describe("Public methods", () => {
             data.country.should.be.equal(country);
             data.personal_profile.address.country.should.be.equal(country);
             data.merchant_profile.address.country.should.be.equal(country);
-            if (country == "JP") {
+            if (country == "JP" || country == "DE") {
               console.log(data);
             }
             done();
