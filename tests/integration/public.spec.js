@@ -1,11 +1,21 @@
+const exec = require("child_process").exec;
 const chai = require("chai");
 chai.should();
 
 // Test Data
-const availableCountries = require("../../lib/data/countries-available");
+const { countriesAvailable } = require("../../lib/data");
 
 // Methods under test
 const getProfile = require("../../lib");
+
+before(() => {
+  exec("npm run build:deptree");
+  const currentPath = process.cwd();
+  console.log(
+    "\x1b[36m%s\x1b[0m",
+    `--> Dependency tree available under ${currentPath}/dependencygraph.svg \n\n`
+  );
+});
 
 // Test sets
 describe("Public methods", () => {
@@ -28,15 +38,15 @@ describe("Public methods", () => {
 
     // Localization
     describe("Coverage of available countries", () => {
-      availableCountries.forEach(country => {
+      countriesAvailable.forEach(country => {
         it(`covers ${country}`, done => {
           getProfile({ countryCode: country }).then(data => {
             data.country.should.be.equal(country);
-            data.personal_profile.address.country.should.be.equal(country);
-            data.merchant_profile.address.country.should.be.equal(country);
-            if (country == "JP" || country == "DE") {
-              console.log(data);
-            }
+            data.address.country.should.be.equal(country);
+            data.address.country.should.be.equal(country);
+            // if (country == "JP" || country == "DE" || country == "ZA") {
+            //   console.log(data);
+            // }
             done();
           });
         });
