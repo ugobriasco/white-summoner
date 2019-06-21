@@ -62,7 +62,7 @@ This is a node library for generating high test merchants/users with realistic a
  AL AR AM AU AT AZ BD BE BA BR BZ BG CA CL CN CO CR DK EG GB EE FI FR GE DE GR HU IN IR IL IT JP KR MX MA NP NL NZ NG NO PK PL PT RO RU SA SK SI ES SE CH TR UA US VN
 ```
 
-_Note:_ not all the countries have complete coverege. In case of mistakes, please open an issue or contribute to the project
+_Note:_ not all the countries have complete coverage. In case of mistakes, please open an issue or contribute to the project
 
 ## Development
 
@@ -79,6 +79,15 @@ _Note:_ not all the countries have complete coverege. In case of mistakes, pleas
   cd ./summmoner
   npm i
 ```
+
+### Test
+
+Run `npm test` to execute the unit and integration tests. It requires the following framework:
+
+- [Mocha](https://mochajs.org/).
+- [Chai](http://chaijs.com).
+
+You can also run unit tests (`npm run test:unit`) or integration tests (`npm run test:integration`) separately
 
 ### Architecture
 
