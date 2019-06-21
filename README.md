@@ -2,7 +2,7 @@
 
 ## Intro
 
-This is a node library for generating high test merchants/users with realistic anagraphical data, address, phone numbers, MCCs and VAT ids. It is particulary sutable for eCom, fintech and KYC applications.
+This is a node library for generating test users/merchants with realistic anagraphical data, address, phone numbers, MCCs and VAT ids. It is particulary sutable for eCom, fintech and KYC applications.
 
 ## Installation
 
