@@ -1,7 +1,7 @@
 {
-  "name": "summoner",
+  "name": "white-summoner",
   "version": "0.1.0",
-  "description": "persona generator",
+  "description": "Persona generator",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -22,9 +22,9 @@
   "author": "Ugo Briasco",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ugobriasco/summoner/issues"
+    "url": "https://github.com/ugobriasco/white-summoner/issues"
   },
-  "homepage": "https://github.com/ugobriasco/summoner#readme",
+  "homepage": "https://github.com/ugobriasco/white-summoner#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "dependency-cruiser": "^4.22.0",
