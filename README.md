@@ -1,4 +1,4 @@
-# Summoner
+# White Summoner
 
 ## Intro
 
@@ -7,13 +7,13 @@ This is a node library for generating test users/merchants with realistic anagra
 ## Installation
 
 ```
-  npm i summoner
+  npm i white-summoner
 ```
 
 ## Usage
 
 ```
-  const getUser = require('summoner');
+  const getUser = require('white-summoner');
 
   // Get a user given country code
   const user = getUser("DE")
