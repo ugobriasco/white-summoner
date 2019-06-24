@@ -28,13 +28,11 @@
     "url": "git+https://github.com/ugobriasco/white-summoner.git"
   },
   "keywords": [
-    "persona",
-    "user",
-    "generator",
+    "user-generator",
     "fintech",
     "ecommerce",
     "kyc",
-    "testing"
+    "testing-tools"
   ],
   "author": "Ugo Briasco",
   "license": "MIT",
