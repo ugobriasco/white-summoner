@@ -47,14 +47,12 @@
     "dependency-cruiser": "^4.22.0",
     "husky": "^2.5.0",
     "lint-staged": "^8.2.1",
-    "mocha": "^6.1.4",
-    "typescript": "^3.5.2"
+    "mocha": "^6.1.4"
   },
   "dependencies": {
     "axios": "^0.19.0",
     "faker": "^4.1.0",
     "lodash.deburr": "^4.1.0",
-    "prop-types": "^15.7.2",
     "random-birthday": "^1.0.1"
   }
 }
