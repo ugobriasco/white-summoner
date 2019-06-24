@@ -1,8 +1,10 @@
-# White Summoner
+# ![A white summoner](https://vignette.wikia.nocookie.net/finalfantasy/images/6/64/Whitemage-ff1-nes.png/revision/latest?cb=20120701233044) White Summoner
+
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## Intro
 
-This is a node library for generating test users/merchants with realistic anagraphical data, address, phone numbers, MCCs and VAT ids. It is particulary sutable for eCom, fintech and KYC applications.
+This is a node library for generating test users/merchants with realistic anagraphical data, address, phone numbers, MCCs and VAT ids. It is particularly suitable for eCom, fin-tech and KYC applications.
 
 ## Installation
 
