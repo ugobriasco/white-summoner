@@ -1,7 +1,7 @@
 {
   "name": "white-summoner",
-  "version": "0.1.0",
-  "description": "Persona generator",
+  "version": "0.1.1",
+  "description": "A user generator with realistic anagraphic data",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -14,10 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ugobriasco/summoner.git"
+    "url": "git+https://github.com/ugobriasco/white-summoner.git"
   },
   "keywords": [
-    "persona"
+    "persona",
+    "user",
+    "generator",
+    "fintech",
+    "ecommerce",
+    "kyc"
   ],
   "author": "Ugo Briasco",
   "license": "MIT",
