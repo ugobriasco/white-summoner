@@ -1,6 +1,6 @@
 {
   "name": "white-summoner",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A user generator with realistic anagraphic data",
   "main": "index.js",
   "directories": {
@@ -22,7 +22,8 @@
     "generator",
     "fintech",
     "ecommerce",
-    "kyc"
+    "kyc",
+    "testing"
   ],
   "author": "Ugo Briasco",
   "license": "MIT",
