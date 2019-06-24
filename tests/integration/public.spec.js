@@ -6,7 +6,7 @@ chai.should();
 const { countriesAvailable } = require("../../lib/data");
 
 // Methods under test
-const getProfile = require("../../lib");
+const getProfile = require("../../../white-summoner");
 
 before(() => {
   exec("npm run build:deptree");
