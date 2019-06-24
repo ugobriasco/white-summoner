@@ -1,2 +1,2 @@
-const getProfile = require("./lib/get-profile");
-module.exports = getProfile
+const getProfile = require("./lib");
+module.exports = getProfile;
