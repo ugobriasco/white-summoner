@@ -1,6 +1,6 @@
 {
   "name": "white-summoner",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A user generator with realistic anagraphic data",
   "main": "index.js",
   "directories": {
