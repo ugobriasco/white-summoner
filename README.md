@@ -13,10 +13,10 @@ This is a node library for generating test users/merchants with realistic anagra
 ## Usage
 
 ```
-  const getUser = require('white-summoner');
+  const summonUser = require('white-summoner');
 
   // Get a user given country code
-  getUser("DE").then(user => console.log(user))
+  summonUser("DE").then(user => console.log(user))
 
   /* Returns:
   {
@@ -51,7 +51,6 @@ This is a node library for generating test users/merchants with realistic anagra
     }
   }
   */
-
 ```
 
 ### Covered country codes
@@ -73,8 +72,8 @@ _Note:_ not all the countries have complete coverage. In case of mistakes, pleas
 ### Setup
 
 ```
-  git clone git@github.com:ugobriasco/summoner.git
-  cd ./summmoner
+  git clone git@github.com:ugobriasco/white-summoner.git
+  cd ./white-summmoner
   npm i
 ```
 
