@@ -7,9 +7,10 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "npm run test:unit && npm run test:integration",
-    "test:unit": "mocha lib/**/*/**/__test/*.spec.js --recursive",
+    "test": "npm run test:unit && npm run test:integration && npm run test:coverage",
+    "test:unit": "nyc --reporter=html --reporter=text mocha lib/**/*/**/__test/*.spec.js --recursive",
     "test:integration": "mocha test/integration/*.spec.js",
+    "test:coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov -t d61883dd-934b-40cc-92c3-a74f0c1b9a03",
     "build:deptree": "depcruise --exclude '^node_modules' --output-type dot lib | dot -T svg > dependencygraph.svg"
   },
   "husky": {
@@ -42,10 +43,12 @@
   "homepage": "https://github.com/ugobriasco/white-summoner#readme",
   "devDependencies": {
     "chai": "^4.2.0",
+    "codecov": "^3.6.5",
     "dependency-cruiser": "^4.22.0",
     "husky": "^2.5.0",
     "lint-staged": "^8.2.1",
     "mocha": "^6.1.4",
+    "nyc": "^15.0.0",
     "prettier": "^1.18.2"
   },
   "dependencies": {

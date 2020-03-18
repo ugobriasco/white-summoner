@@ -2,6 +2,8 @@
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
+[![codecov](https://codecov.io/gh/ugobriasco/white-summoner/branch/master/graph/badge.svg)](https://codecov.io/gh/ugobriasco/white-summoner)
+
 ## Intro
 
 This is a node library for generating test users/merchants with realistic anagraphical data, address, phone numbers, MCCs and VAT ids. It is particularly suitable for eCom, fin-tech and KYC applications.
