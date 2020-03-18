@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "npm run test:unit && npm run test:integration",
-    "test:unit": "mocha lib/**/*/**/__tests/*.spec.js --recursive",
-    "test:integration": "mocha tests/integration/*.spec.js",
+    "test:unit": "mocha lib/**/*/**/__test/*.spec.js --recursive",
+    "test:integration": "mocha test/integration/*.spec.js",
     "build:deptree": "depcruise --exclude '^node_modules' --output-type dot lib | dot -T svg > dependencygraph.svg"
   },
   "husky": {
