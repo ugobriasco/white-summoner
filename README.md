@@ -1,8 +1,6 @@
 # ![A white summoner](https://vignette.wikia.nocookie.net/finalfantasy/images/6/64/Whitemage-ff1-nes.png/revision/latest?cb=20120701233044) White Summoner
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-
-[![codecov](https://codecov.io/gh/ugobriasco/white-summoner/branch/master/graph/badge.svg)](https://codecov.io/gh/ugobriasco/white-summoner)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![codecov](https://codecov.io/gh/ugobriasco/white-summoner/branch/master/graph/badge.svg)](https://codecov.io/gh/ugobriasco/white-summoner)
 
 ## Intro
 
