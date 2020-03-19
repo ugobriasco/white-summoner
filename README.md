@@ -24,31 +24,31 @@ This is a node library for generating test users/merchants with realistic anagra
   {
     country: 'DE',
     personal_profile: {
-      first_name: 'Niklas',
-      last_name: 'Seidel',
-      date_of_birth: 1962-06-20T23:00:00.000Z,
-      mobile_phone: '+491601549854',
+      first_name: 'Emma',
+      last_name: 'Christ',
+      date_of_birth: 1986-03-18T23:00:00.000Z,
+      mobile_phone: '+491601489983',
       national_id: 'T220001293'
     },
     merchant_profile: {
       merchant_category_code: '7392',
       nature_and_purpose: 'Life is our purpose',
       company_name: 'Umbrella Corp. DE',
-      vat_id: 'DE285998050',
-      permanent_certificate_access_code: 'PCAC123456',
+      vat_id: 'DE210778237',
+      company_registration_number: 'T220001293',
       website: 'http://villains.wikia.com/wiki/Umbrella_Corporation',
-      mobile_phone: '+491601549854'
+      mobile_phone: '+491601489983'
     },
     address: {
       country: 'DE',
-      address_line1: '418 Pogorzelski Villages',
+      address_line1: '6735 Kähler Row',
       address_line2: '',
-      city: 'Neu Mohammeddorf',
-      post_code: '88297',
+      city: 'Karldorf',
+      post_code: '97968',
       region_name: 'Thüringen',
-      landline: '+491601549854',
-      first_name: 'Niklas',
-      last_name: 'Seidel',
+      landline: '+491601489983',
+      first_name: 'Emma',
+      last_name: 'Christ',
       company: 'Umbrella Corp. DE'
     }
   }
