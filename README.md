@@ -24,31 +24,31 @@ This is a node library for generating test users/merchants with realistic anagra
   {
     country: 'DE',
     personal_profile: {
-      first_name: 'Emma',
-      last_name: 'Christ',
-      date_of_birth: 1986-03-18T23:00:00.000Z,
-      mobile_phone: '+491601489983',
+      first_name: 'Kilian',
+      last_name: 'Busch',
+      date_of_birth: 1977-10-18T23:31:40.498Z,
+      mobile_phone: '+491607793762',
       national_id: 'T220001293'
     },
-    merchant_profile: {
+    business_profile: {
       merchant_category_code: '7392',
       nature_and_purpose: 'Life is our purpose',
       company_name: 'Umbrella Corp. DE',
-      vat_id: 'DE210778237',
+      vat_id: 'DE269991274',
       company_registration_number: 'T220001293',
       website: 'http://villains.wikia.com/wiki/Umbrella_Corporation',
-      mobile_phone: '+491601489983'
+      mobile_phone: '+491607793762'
     },
     address: {
       country: 'DE',
-      address_line1: '6735 Kähler Row',
-      address_line2: '',
-      city: 'Karldorf',
-      post_code: '97968',
-      region_name: 'Thüringen',
-      landline: '+491601489983',
-      first_name: 'Emma',
-      last_name: 'Christ',
+      address_line1: '5891 Zipse Station',
+      address_line2: '78',
+      city: 'Zimmerdorf',
+      post_code: '80568',
+      region_name: 'Baden-Württemberg',
+      landline: '+491607793762',
+      first_name: 'Kilian',
+      last_name: 'Busch',
       company: 'Umbrella Corp. DE'
     }
   }
@@ -94,7 +94,6 @@ You can also run unit tests (`npm run test:unit`) or integration tests (`npm run
 
 ### Sources
 
-- Faker (been soon deprecated)
 - https://github.com/greggles/mcc-codes
 
 ## Contributing
