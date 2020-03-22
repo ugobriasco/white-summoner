@@ -49,7 +49,7 @@
     "lint-staged": "^10.0.8",
     "mocha": "^7.1.1",
     "nyc": "^15.0.0",
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.1"
   },
   "dependencies": {
     "faker": "^4.1.0",
